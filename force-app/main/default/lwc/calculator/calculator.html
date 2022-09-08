@@ -1,0 +1,16 @@
+<template>
+
+    <lightning-card title="Calculator" >
+        <lightning-input label="Num1" name="Num1"  value={num1} onchange={handleChange}></lightning-input>
+        <lightning-input label="Num2" name="Num2"  value={num2} onchange={handleChange}></lightning-input>
+
+        <lightning-button-group>
+            <lightning-button name="+" label="+" onclick={handleClick}></lightning-button>
+            <lightning-button name="-" label="-" onclick={handleClick}></lightning-button>
+            <lightning-button name="*" label="*" onclick={handleClick}></lightning-button>
+            <lightning-button name='/' label="/" onclick={handleClick}></lightning-button>
+        </lightning-button-group>
+        <p>{result}</p>
+    </lightning-card>
+    
+</template>
