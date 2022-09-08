@@ -1,12 +1,20 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Calculator App",
+            "versionName": "Summer  1.1",
+            "versionNumber": "1.2.0.NEXT"
+        }
+    ],
+    "name": "CalculatorDemo",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "55.0",
+    "packageAliases": {
+        "Calculator App": "0Ho7F000000k9muSAA",
+        "Calculator App@1.1.0-1": "04t7F000003ituSQAQ",
+        "Calculator App@1.2.0-1": "04t7F000003ituXQAQ"
     }
-  ],
-  "name": "CalculatorDemo",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0"
 }
